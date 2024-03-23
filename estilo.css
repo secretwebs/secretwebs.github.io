@@ -1,0 +1,59 @@
+body {
+    
+    background: #ffffff; /* Color de fondo general de la página */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 23px; /* Ajusta este valor a tu gusto */
+    width: 50%;
+   
+   
+}
+
+header, footer {
+    background-color: hsl(249, 100%, 20%); /* Color azul para la cabecera y el pie de página */
+    color: white; /* Titulo de la pagina  */
+    padding: 15px;
+    text-align: center;
+    width: 190%;
+
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+header a:hover, footer a:hover {
+    color: #ffcc00; /* Color cuando se pasa el ratón por encima de los enlaces */
+}
+h2 {font-size: 35px; /* Ajusta el tamaño del texto */
+    color: #000000; /* Cambia el color del texto a rojo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade sombra al texto */}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.footer-messages {
+    margin-top: 20px;
+}
+
+.footer-messages li {
+    margin-bottom: 5px;
+}
